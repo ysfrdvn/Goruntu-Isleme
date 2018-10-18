@@ -1,2 +1,2 @@
-# Goruntu-Isleme-Dersi
+# Goruntu-Isleme
 dersler
