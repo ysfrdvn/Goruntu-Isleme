@@ -1,9 +1,9 @@
 #KNN ile yeni eklenen verinini sınıfını bulma
 import pandas as pd
 import csv
-iris=pd.read_csv("iris.csv")
+iris=pd.read_csv("uyg8_knn_iris.csv")
 results = []
-with open("iris.csv") as csvfile:
+with open("uyg8_knn_iris.csv") as csvfile:
     reader = csv.reader(csvfile, quoting=csv.QUOTE_NONNUMERIC) # change contents to floats
     for row in reader: # each row is a list
         results.append(row)
